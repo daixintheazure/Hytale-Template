@@ -1,6 +1,6 @@
 # Mod Template
 
-A simple template for creating Hytale mods using Gradle.
+A simple template for creating [Hytale](https://hytale.com/) mods using Gradle.
 
 ## Getting Started
 
