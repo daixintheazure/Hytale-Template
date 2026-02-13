@@ -1,14 +1,14 @@
 {
   "Group": "group",
-  "Name": "ModName",
+  "Name": "FirstMod",
   "Version": "1.0.0",
-  "Description": "Your description",
+  "Description": "First Mod",
   "Authors": [
     {
-      "Name": "your name"
+      "Name": "Dai Xin"
     },
     {
-      "Name": "Alii"
+      "Name": "Dai"
     }
   ],
   "Website": "",
@@ -16,6 +16,6 @@
   "Dependencies": {},
   "OptionalDependencies": {},
   "DisabledByDefault": false,
-  "Main": "package.mainclass",
+  "Main": "me.dai.FirstMod",
   "IncludesAssetPack": true
 }

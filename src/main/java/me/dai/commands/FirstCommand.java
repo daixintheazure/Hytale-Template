@@ -1,4 +1,4 @@
-package me.alii.commands;
+package me.dai.commands;
 
 import com.hypixel.hytale.server.core.Message;
 import com.hypixel.hytale.server.core.command.system.CommandContext;
