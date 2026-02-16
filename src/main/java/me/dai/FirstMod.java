@@ -5,6 +5,7 @@ import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import me.dai.commands.FirstCommand;
 import me.dai.systems.BlockBreakEventSystem;
+import me.dai.systems.BlockDamageEventSystem;
 import org.checkerframework.checker.nullness.compatqual.NonNullDecl;
 
 public class FirstMod extends JavaPlugin {
@@ -21,5 +22,7 @@ public class FirstMod extends JavaPlugin {
 
         // Initialize Event System
         this.getEntityStoreRegistry().registerSystem(new BlockBreakEventSystem());
+
+        this.getEntityStoreRegistry().registerSystem(new BlockDamageEventSystem());
     }
 }
