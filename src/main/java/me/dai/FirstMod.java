@@ -4,6 +4,7 @@ import com.hypixel.hytale.server.core.command.system.CommandRegistry;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import me.dai.commands.FirstCommand;
+import me.dai.systems.BlockBreakEventSystem;
 import org.checkerframework.checker.nullness.compatqual.NonNullDecl;
 
 public class FirstMod extends JavaPlugin {
@@ -17,5 +18,8 @@ public class FirstMod extends JavaPlugin {
         // Initialize everything
         CommandRegistry commandRegistry = this.getCommandRegistry();
         commandRegistry.registerCommand(new FirstCommand());
+
+        // Initialize Event System
+        this.getEntityStoreRegistry().registerSystem(new BlockBreakEventSystem());
     }
 }
