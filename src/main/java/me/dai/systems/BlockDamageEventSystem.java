@@ -30,6 +30,7 @@ public class BlockDamageEventSystem extends EntityEventSystem<EntityStore, Damag
         if(player == null) return;
 
         player.sendMessage(Message.raw("You hit: %s".formatted(event.getBlockType().getId())));
+        player.sendMessage(Message.raw("You did %s".formatted(event.getDamage())));
 
     }
 
