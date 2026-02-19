@@ -23,3 +23,7 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
+
+tasks.jar {
+    destinationDirectory.set(file("C:\\Users\\daidi\\AppData\\Roaming\\Hytale\\UserData\\Saves\\Mod Testing\\mods"))
+}
